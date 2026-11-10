@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  color: white;
+  font-family: roboto, Arial;
+  
+}
+.header-top{
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  align-items: center;
+  background-color: #d60231;
+}
+.time-con-info{
+  display: flex;
+  align-items: center;
+}
+.clock-container {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 2.3px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d60231;
+}
 .clock-icon{
-  background-color: transparent;
+  width: 15px;
+  height: 15px;
 }
