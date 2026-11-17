@@ -27,7 +27,7 @@ export function Header() {
           </div>
           <div className="headset-container">
             <FaHeadset className="headset-icon" />
-            support@foodbzz.com
+            support@foodbuzz.com
           </div>
           <div className="twitter-container">
             <FaXTwitter />
