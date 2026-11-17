@@ -2,34 +2,136 @@
 
 
 body{
-  color: white;
   font-family: roboto, Arial;
-  
+  font-size: 16px;
+}
+.header-section{
+  height: 160px;
 }
 .header-top{
   display: flex;
   border-width: 1px;
   border-style: solid;
-  height: 50px;
+  height: 55px;
   align-items: center;
   background-color: #d60231;
+  color: white;
 }
 .time-con-info{
   display: flex;
   align-items: center;
+  margin-left: 130px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.432);
+  border-top: none;
+  border-bottom: none;
+  height: 55px;
 }
 .clock-container {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   background-color: white;
-  border: 2.3px solid white;
+  border: 2.8px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #d60231;
+  font-size: 12px;
+  margin-right: 5px;
 }
-.clock-icon{
+.location-container{
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-right: 1px solid;
+  height: 55px;
+  border-color: rgba(255, 255, 255, 0.432);
+}
+.twitter-container, .facebook-container, .insta-container, .wifi-container{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-right: 1px solid;
+  height: 55px;
+  border-color: rgba(255, 255, 255, 0.432);
+}
+.headset-container{
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-right: 1px solid;
+  height: 55px;
+  border-color: rgba(255, 255, 255, 0.432);
+}
+.headset-icon{
+  padding-right: 5px;
+}
+.logo-img{
+  width: 220px;
+  margin-left: 80px;
+}
+.header-buttom-section{
+height: 100px;
+display: flex;
+align-items: center;
+}
+.header-buttom-component{
+  display: flex;
+  margin-left: 150px;
+  width: 59%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Home-section{
+  font-size: 18px;
+  font-weight: 500;
+  color: #d60231;
+}
+.pages-section, .blog-section, .menu-section, .reservation-section,.shop-section, .contact-section{
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.chevron-down{
   width: 15px;
-  height: 15px;
+  stroke-width: 3px;
+}
+.header-buttom-right{
+  display: flex;
+  align-items: center;
+}
+.search-section{
+  border-style: solid;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-color: rgba(163, 160, 160, 0.598);
+  color: rgb(110, 109, 109);
+  
+}
+.cart-section{
+  border-style: solid;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-color: rgba(163, 160, 160, 0.598);
+  color: rgb(110, 109, 109); 
+  margin-left: 10px;
 }
