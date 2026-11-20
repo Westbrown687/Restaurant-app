@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-  height: 1000px;
+  height: 10000px;
 }
 
 .body-section{
@@ -70,10 +70,59 @@ body{
 }
  .about-section{
   display: flex;
-  padding: 120px 0;
-  width: 100%;
+  padding: 125px 0;
+  width: 90%;
+ }
+ .about-container-left{
+  display: flex;
+  width: 90%;
+  padding-left: 60px;
+  flex-direction: column;
+  padding-top: 15px;
+ }
+ .about-sec-A{
+  width: 600px;
+  padding-top: 40px;
+ }
+ .about-sec-B{
+  width: 600px;
+  text-align: left;
+ }
+ .about-sec-B p{
+  font-family: roboto, Arial;
+  color: gray;
+  font-size: 18px;
+  line-height: 24px;
+ }
+.about-wlc{
+  font-family: montserrat, arial;
+  font-weight: 650;
+  font-size: 32px;
+  color: #d60231;
+  padding-bottom: 10px;
+}
+.about-history{
+font-family: montserrat, arial;
+  font-weight: 650;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
 
- }
- .about-container{
-padd
- }
+.direction-container{ 
+  height: 58px;
+  width: 170px;
+  font-size: 18px;
+  font-family: roboto, Arial;
+  font-weight: 500;
+  color:#d60231;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2.5px;
+  margin-top: 40px
+}
+.restaurant-special{
+  background-image: url("cake.jpg");
+  min-height: 600px;
+}
