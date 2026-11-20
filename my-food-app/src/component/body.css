@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+  height: 1000px;
+}
 
 .body-section{
   background-image: url("/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 550px;
+  min-height: 590px;
   
   display: flex;
   align-items: center;
@@ -16,6 +19,10 @@
 .body-section-bottom{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  margin-top: 50px;
+  
 }
 .welcome-container{
   margin-top: -20px;
@@ -26,9 +33,47 @@
   font-weight: 400;
 }
 .food-container{
-  font-size: 75px;
-  font-weight: 700;
+  font-size: 73px;
+  font-weight: 680;
   text-transform: capitalize;
   font-family: Montserrat;
   color: #d60231;
 }
+.order-section{
+  border-style: solid;
+  height: 50px;
+  width: 130px;
+}
+.order-button{
+  height: 58px;
+  width: 150px;
+  font-size: 18px;
+  font-family: roboto, Arial;
+  font-weight: 500;
+  color: white;
+  background-color: #d60231;
+  border: none;
+  border-radius: 5px;
+}
+.booking-button{
+  height: 58px;
+  width: 170px;
+  font-size: 18px;
+  font-family: roboto, Arial;
+  font-weight: 500;
+  color:#d60231;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2.5px;
+}
+ .about-section{
+  display: flex;
+  padding: 120px 0;
+  width: 100%;
+
+ }
+ .about-container{
+padd
+ }
